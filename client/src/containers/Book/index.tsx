@@ -27,7 +27,7 @@ const NewComment: FC<{ onNewComment: () => void }> = ({ onNewComment }) => {
   return (
     <Card style={{ marginBottom: 20 }}>
       <CardContent>
-        <strong>New author added:</strong> {data.commentAdded.text} | by <strong>{data.commentAdded.author}</strong>
+        <strong>New comment added:</strong> {data.commentAdded.text} | by <strong>{data.commentAdded.author}</strong>
       </CardContent>
     </Card>
   )
